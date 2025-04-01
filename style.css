@@ -1,0 +1,70 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.hero{
+  background:linear-gradient(to right,white,#333);
+  color: white;
+  padding: 100px 20px;
+}
+.hero h1{
+  font-size: 5em;
+}
+.hero p{
+  font-size:1.2rem;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.features{
+  padding: 50px 20px;
+  background: #f5f5f5;
+}
+.feature{
+  margin:20px 0;
+}
+.feature h3{
+  font-size: 1.5rem;
+}
+.features h2 {
+  font-size: 2rem;
+  display: block;
+}
+.contact{
+  padding: 50px 20px;
+  background: #333;
+  color: white;
+}
+.contact input, .contact button{
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding:10px;
+  border:none;
+  border-radius: 5px;
+}
+.contact button{
+  background: #ff7e5f;
+  color: white;
+  cursor:pointer;
+}
+@media(max-width: 768px){
+  .hero h1{font-size: 2rem;}
+
+.hero p {
+  font-size: 1rem;
+}
+.contact input, contact button{
+  width:90%;
+}
+}
